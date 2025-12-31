@@ -1070,7 +1070,7 @@ function drawStartScreen() {
     ctx.shadowBlur = 10 + pulse * 20;
     ctx.shadowColor = '#00f2ff';
     ctx.fillStyle = '#ffffff';
-    ctx.fillText("小蜜蜂 PRO", canvas.width / 2, canvas.height / 2 - 80 + yOffset);
+    ctx.fillText("小蜜蜂", canvas.width / 2, canvas.height / 2 - 80 + yOffset);
     ctx.shadowBlur = 0;
 
     // 3. Jet Fly-Through and Return Animation
