@@ -1,4 +1,4 @@
-# Space Invaders PRO (小蜜蜂 PRO)
+# Space Invaders PRO (大黃蜂 PRO)
 
 ## Project Overview
 

@@ -248,7 +248,7 @@ let gameState = {
         width: 50,
         height: 50,
         speed: 8,
-        char: '🚀',
+        char: '🐝',
         fontSize: 40,
         color: '#00f2ff',
         invulnerableUntil: 0,
@@ -390,7 +390,7 @@ function createEnemies() {
     const enemyHeight = 45;
     const enemyPadding = 5;
     const enemyOffsetTop = 60;
-    const enemyChars = ['👾', '👽', '💀', '🤖', '👺'];
+    const enemyChars = ['🐝', '👽', '💀', '🤖', '👺'];
     const enemyColors = ['#ff00ff', '#00ff00', '#ffff00', '#00f2ff', '#ff3366'];
     
     // Choose formation based on level
@@ -1070,7 +1070,7 @@ function drawStartScreen() {
     ctx.shadowBlur = 10 + pulse * 20;
     ctx.shadowColor = '#00f2ff';
     ctx.fillStyle = '#ffffff';
-    ctx.fillText("小蜜蜂", canvas.width / 2, canvas.height / 2 - 80 + yOffset);
+    ctx.fillText("大黃蜂", canvas.width / 2, canvas.height / 2 - 80 + yOffset);
     ctx.shadowBlur = 0;
 
     // 3. Jet Fly-Through and Return Animation
@@ -1106,7 +1106,7 @@ function drawStartScreen() {
     ctx.font = '60px "Exo 2"';
     ctx.shadowBlur = 15;
     ctx.shadowColor = '#00f2ff';
-    ctx.fillText('🚀', 0, 0);
+    ctx.fillText('🐝', 0, 0);
     
     // Thruster effect
     if (thruster) {
